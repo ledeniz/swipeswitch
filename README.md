@@ -4,6 +4,8 @@
 
 Mobile friendly HTTP API Interface for stateless on/off switches.
 
+Intended for using right swipe for turning "on" and left swipe for turning "off" something. 
+
 Made for controlling lights via Node-RED.
 
 ## Installation
