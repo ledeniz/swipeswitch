@@ -1,16 +1,11 @@
 var app = {
     initialize: function() {
         config.switches.forEach(function(routes) {
-            console.log(routes)
             var $switch = app.createSwitch(routes);
-            console.log($switch)
-            console.log($('body'))
             $('body').append($switch);
         });
 
         app.initSwiper();
-
-        console.log("initialzed")
     },
 
     onTransitionEnd: function () {

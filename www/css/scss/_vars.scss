@@ -10,22 +10,23 @@ $c-green: #9fcc2e;
 $c-text: $c-white;
 $c-bg:   $c-black;
 
-$c-switch-default:        lighten($c-black, 5%);
-$c-switch-off:            $c-black;
-$c-switch-on:             lighten($c-black, 15%);
 
-$c-switch-default-alt:    $c-grey;
-$c-switch-off-alt:        darken($c-grey, 10%);
-$c-switch-on-alt:         lighten($c-grey, 15%);
+$c-switch-default:          $c-green;
+$c-switch-off:              darken($c-green, 10%);
+$c-switch-on:               lighten($c-green, 15%);
 
-$c-switch-default-alt-2:  $c-red;
-$c-switch-off-alt-2:      darken($c-red, 10%);
-$c-switch-on-alt-2:       lighten($c-red, 15%);
+$c-switch-default-alt:      $c-red;
+$c-switch-off-alt:          darken($c-red, 10%);
+$c-switch-on-alt:           lighten($c-red, 15%);
 
-$c-switch-default-alt-3:  $c-green;
-$c-switch-off-alt-3:      darken($c-green, 10%);
-$c-switch-on-alt-3:       lighten($c-green, 15%);
+$c-switch-default-alt-2:    $c-violet;
+$c-switch-off-alt-2:        darken($c-violet, 10%);
+$c-switch-on-alt-2:         lighten($c-violet, 15%);
 
-$c-switch-default-alt-4:  $c-violet;
-$c-switch-off-alt-4:      darken($c-violet, 10%);
-$c-switch-on-alt-4:       lighten($c-violet, 15%);
+$c-switch-default-alt-3:    $c-grey;
+$c-switch-off-alt-3:        darken($c-grey, 10%);
+$c-switch-on-alt-3:         lighten($c-grey, 15%);
+
+$c-switch-default-alt-4:    lighten($c-black, 5%);
+$c-switch-off-alt-4:        $c-black;
+$c-switch-on-alt-4:         lighten($c-black, 15%);
