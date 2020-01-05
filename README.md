@@ -1,4 +1,7 @@
 # SwipeSwitch
+
+<img src="https://raw.githubusercontent.com/ledeniz/swipeswitch/master/doc/preview.gif">
+
 Mobile friendly HTTP API Interface for stateless on/off switches.
 
 Made for controlling lights via Node-RED.
