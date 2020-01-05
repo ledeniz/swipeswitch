@@ -1,7 +1,7 @@
 # SwipeSwitch
 Mobile friendly HTTP API Interface for stateless on/off switches.
 
-Made for controlling lights via Node Red.
+Made for controlling lights via Node-RED.
 
 ## Installation
 ```sh
