@@ -1,8 +1,10 @@
 # SwipeSwitch
 Mobile friendly HTTP API Interface for stateless on/off switches.
 
+Made for controlling lights via Node Red.
+
 ## Installation
-```
+```sh
 $ git clone https://github.com/ledeniz/swipeswitch
 $ cd swipeswitch
 $ npm install
@@ -12,7 +14,7 @@ $ npm install
 
 Customize the `config` object in `config.js`
 
-```
+```javascript
 var config = {
     api: 'http://example.com/api',
 
@@ -22,3 +24,6 @@ var config = {
     ]
 };
 ```
+
+## License
+MIT - do whatever you wanna do
