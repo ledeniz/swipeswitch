@@ -13,11 +13,12 @@ Made for controlling lights via Node-RED.
 $ git clone https://github.com/ledeniz/swipeswitch
 $ cd swipeswitch
 $ npm install
+$ cordova run browser
 ```
 
 ## Configuration
 
-Customize the `config` object in `config.js`
+Customize the `config` object in `/www/js/config.js`
 
 ```javascript
 var config = {

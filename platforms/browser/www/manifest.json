@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "SwipeSwitch",
+  "short_name": "SwipeSwitch",
+  "version": "de.ozealis.swipeswitch",
+  "description": "Mobile friendly stateless on/off switches for HTTP APIs",
+  "author": "Deniz Erdogan",
+  "icons": [],
+  "start_url": "index.html"
+}

@@ -1,11 +1,31 @@
 {
   "name": "swipeswitch",
+  "displayName": "SwipeSwitch",
   "version": "1.0.0",
-  "description": "Mobile friendly HTTP API Interface for stateless on/off switches",
+  "description": "Mobile friendly stateless on/off switches for HTTP APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
   "author": "Deniz Erdogan",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.4.1",
-    "swiper": "^5.2.1"
+    "cordova-android": "^8.1.0",
+    "cordova-browser": "^6.0.0"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "browser",
+      "android"
+    ]
   }
 }
