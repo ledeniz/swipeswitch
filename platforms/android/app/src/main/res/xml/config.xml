@@ -20,5 +20,6 @@
     <allow-intent href="geo:*" />
     <access origin="*" />
     <allow-intent href="market:*" />
+    <icon src="res/icon.png" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

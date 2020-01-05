@@ -7,6 +7,7 @@
     <author email="code@ledeniz.de" href="http://ledeniz.de">
         Deniz Erdogan
     </author>
+
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
@@ -16,10 +17,14 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+
     <platform name="android">
         <access origin="*" />
         <allow-intent href="market:*" />
+
+        <icon src="res/icon.png" />
     </platform>
+
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
