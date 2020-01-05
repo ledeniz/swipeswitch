@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/ledeniz/swipeswitch/master/doc/preview.gif">
 
-Mobile friendly HTTP API Interface for stateless on/off switches.
+Mobile friendly stateless on/off switches for HTTP APIs.
 
 Intended for using right swipe for turning "on" and left swipe for turning "off" something. 
 
