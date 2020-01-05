@@ -1,0 +1,11 @@
+{
+  "name": "swipeswitch",
+  "version": "1.0.0",
+  "description": "Mobile friendly HTTP API Interface for stateless on/off switches",
+  "author": "Deniz Erdogan",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "swiper": "^5.2.1"
+  }
+}
