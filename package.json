@@ -2,7 +2,7 @@
   "name": "fernlenke",
   "displayName": "fernlenke",
   "version": "1.0.0",
-  "description": "Mobile friendly stateless on/off switches for HTTP APIs.",
+  "description": "Mobile friendly remote for HTTP APIs.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,6 @@
     "fernlenke"
   ],
   "author": "Deniz Erdogan",
-  "license": "MIT",
   "dependencies": {
     "cordova-android": "^8.1.0",
     "cordova-browser": "^6.0.0"

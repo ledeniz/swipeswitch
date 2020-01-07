@@ -1,11 +1,17 @@
 var app = {
     initialize: function() {
+        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+    },
+
+    onDeviceReady: function() {
         config.switches.forEach(function(routes) {
             var $switch = app.createSwitch(routes);
             $('body').append($switch);
         });
 
         app.initSwiper();
+
+        console.log("fernlenke initialized")
     },
 
     onTransitionEnd: function () {
@@ -66,6 +72,4 @@ var app = {
     },
 };
 
-$(document).ready(function() {
-    app.initialize();
-});
+app.initialize();

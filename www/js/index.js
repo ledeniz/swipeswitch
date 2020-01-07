@@ -1,5 +1,9 @@
 var app = {
     initialize: function() {
+        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+    },
+
+    onDeviceReady: function() {
         config.switches.forEach(function(routes) {
             var $switch = app.createSwitch(routes);
             $('body').append($switch);
@@ -66,6 +70,4 @@ var app = {
     },
 };
 
-$(document).ready(function() {
-    app.initialize();
-});
+app.initialize();
