@@ -47,13 +47,13 @@ var app = {
                 swiper.initialX = e.clientX;
 
                 swiper.timeout = setTimeout(function() {
-                    console.log("brightness mode")
-
                     swiper.timeout = undefined;
                     swiper.slideTo(1);
                     swiper.detachEvents();
                     swiper.brightness = true;
                 }, 500);
+
+                $swiper.css('filter', '');
             });
 
             $swiper.mouseup(function () {
@@ -66,6 +66,8 @@ var app = {
                     swiper.brightness = false;
                     swiper.attachEvents();
                 }
+
+                $swiper.css('filter', '');
             });
 
             $swiper.mousemove(function (e) {
@@ -91,6 +93,8 @@ var app = {
 
                         if (brightness !== swiper.oldBrightness) {
                             swiper.oldBrightness = brightness;
+
+                            $swiper.css('filter', 'brightness(' + brightness + '%)');
 
                             var route = config.switches[key][2] + brightness;
                             app.call( route);
