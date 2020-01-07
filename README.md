@@ -1,6 +1,6 @@
-# SwipeSwitch
+# fernlenke
 
-<img src="https://raw.githubusercontent.com/ledeniz/swipeswitch/master/doc/preview.gif">
+<img src="https://raw.githubusercontent.com/ledeniz/fernlenke/master/doc/preview.gif">
 
 ## Description
 
@@ -14,7 +14,7 @@ Supports modern browsers and Android (probably even iOS) via cordova.
 
 ## Installation
 ```sh
-$ git clone https://github.com/ledeniz/swipeswitch
+$ git clone https://github.com/ledeniz/fernlenke
 $ cd swipeswitch
 $ npm install
 $ cordova run browser

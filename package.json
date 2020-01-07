@@ -1,6 +1,6 @@
 {
-  "name": "swipeswitch",
-  "displayName": "SwipeSwitch",
+  "name": "fernlenke",
+  "displayName": "fernlenke",
   "version": "1.0.0",
   "description": "Mobile friendly stateless on/off switches for HTTP APIs.",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "ecosystem:cordova"
+    "fernlenke"
   ],
   "author": "Deniz Erdogan",
   "license": "MIT",
