@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="de.ozealis.swipeswitch" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>SwipeSwitch</name>
+<widget id="de.ozealis.fernlenke" version="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>fernlenke</name>
     <description>
         Mobile friendly stateless on/off switches for HTTP APIs
     </description>

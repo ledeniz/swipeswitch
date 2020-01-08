@@ -1,3 +1,4 @@
+import 'pepjs'
 import config from './config';
 
 var app = {
@@ -43,9 +44,8 @@ var app = {
             var $swiper = $(swiper.$el);
             swiper.brightness = false;
 
-            $swiper.mousedown(function (e) {
+            $swiper.on('pointerdown', function (e) {
                 swiper.initialX = e.clientX;
-
                 swiper.timeout = setTimeout(function() {
                     swiper.timeout = undefined;
                     swiper.slideTo(1);
@@ -56,7 +56,7 @@ var app = {
                 $swiper.css('filter', '');
             });
 
-            $swiper.mouseup(function () {
+            $swiper.on('pointerup', function () {
                 if (swiper.timeout !== undefined) {
                     clearTimeout(swiper.timeout);
                     swiper.timeout = undefined;
@@ -70,7 +70,7 @@ var app = {
                 $swiper.css('filter', '');
             });
 
-            $swiper.mousemove(function (e) {
+            $swiper.on('pointermove', function (e) {
                 if (swiper.timeout !== undefined) {
                     var threshold = window.innerWidth * 0.05;
 
@@ -78,7 +78,7 @@ var app = {
                     var isSmaller = e.clientX < swiper.initialX - threshold;
 
                     if (isBigger || isSmaller) {
-                        clearTimeout(swiper.timeout)
+                        clearTimeout(swiper.timeout);
                     }
                 }
 
@@ -90,11 +90,10 @@ var app = {
                     // debouncing
                     swiper.brightnessCallTimeout = setTimeout(function() {
                         var brightness = Number(e.clientX / window.innerWidth).toFixed(1)*100;
-
                         if (brightness !== swiper.oldBrightness) {
                             swiper.oldBrightness = brightness;
 
-                            $swiper.css('filter', 'brightness(' + brightness + '%)');
+                            $swiper.css('filter', 'brightness(' + brightness*0.1 + ')');
 
                             var route = config.switches[key][2] + brightness;
                             app.call( route);

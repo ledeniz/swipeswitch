@@ -3,3 +3,6 @@ test:
 
 build:
 	npm run build
+
+install:
+	cordova run android

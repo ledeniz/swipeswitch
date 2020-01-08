@@ -17,7 +17,7 @@
        under the License.
  */
 
-package de.ozealis.swipeswitch;
+package de.ozealis.fernlenke;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
